@@ -70,6 +70,10 @@ The reply must contain one JSON object with `structure`, `specificity`, `impact`
 
 **Never put an API key in `index.html` or `config.js`.** Anything in those files is public. Keep keys in your host's environment variables, behind a server function, and set a spending limit with your AI provider. A public endpoint lets anyone who finds it spend your credits.
 
+## Live AI scoring with no setup (Claude)
+
+If you use Claude, you can get voice answers and live AI scoring with no server and no API key. Claude can publish a ready-made version of this page as an artifact that is allowed to call Claude for scoring. Follow `claude-artifact/HOW-TO.md`. It takes about two minutes.
+
 ## Using it with an AI coding assistant
 
 Hand your assistant `index.html`, `config.js`, and `docs/ARCHITECTURE.md`, then ask for what you want. For example:
